@@ -33,6 +33,7 @@
     justify-content: space-between;
     width: 120px;
     flex-shrink: 0;
+    margin-right: 20px;
 }
 
 .menu-icon{
