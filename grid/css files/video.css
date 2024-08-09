@@ -1,0 +1,78 @@
+.t1{
+    width: 100%;
+    border-radius: 10px;
+}
+.video-title{
+    margin-top: 0px;
+   font-weight: 500;
+   margin-bottom: 0;
+   color: black;
+   font-size: 12px;
+}
+
+
+.video-profile{
+    width: 50px;
+}
+.video-thamb{
+    position: relative;
+    margin-bottom: 5px;
+}
+.video-time{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    right: 8px;
+    bottom: 8px;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+}
+.video-info{
+    font-family:"Roboto";
+}
+.video-author,
+.video-status{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color:rgb(108, 108, 108);
+}
+.video-author{
+    margin-top: 10px;
+}
+
+.profile{
+    width: 35px;
+    border-radius: 50px;
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width:750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:751px) and (min-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width:1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.grid-video-info{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
