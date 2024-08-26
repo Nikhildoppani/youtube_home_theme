@@ -8,6 +8,10 @@
    margin-bottom: 0;
    color: black;
    font-size: 12px;
+   white-space: nowrap; 
+   width: 250px;
+    overflow: hidden;
+    text-overflow:ellipsis; 
 }
 
 
